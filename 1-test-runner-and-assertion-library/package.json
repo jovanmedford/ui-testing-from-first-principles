@@ -1,11 +1,11 @@
 {
-  "name": "1-test-runner-and-asseriont-library",
+  "name": "1-test-runner-and-assertion-library",
   "version": "1.0.0",
   "description": "Barebones node test, no additional requirements necessary",
   "license": "ISC",
   "author": "Jovan Medford",
   "type": "module",
   "scripts": {
-    "test": "npm run test"
+    "test": "node --test"
   }
 }
