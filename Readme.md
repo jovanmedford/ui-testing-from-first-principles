@@ -14,7 +14,7 @@ Introduces the behaviour we would see from testEnvironment: "jsdom". This step e
 ### 3. Transformation & Module Resolution
 Typescript and React both use syntax that browsers do not natively understand. This step shows how you can introduce a transpilation step in order to run non-native syntax in your tests.
 
-### 4. Jest, React & Testing Library (To Do)
+### 4. Jest, React & Testing Library
 Putting everything together, we see how to run unit tests using Jest and React Testing Library.
 
 ### 5. Vitest (To Do)

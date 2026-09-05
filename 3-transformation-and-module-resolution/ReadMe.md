@@ -57,7 +57,7 @@ A mismatch between these settings can result in the following:
 - Typescript errors when the test set up is otherwise correct.
 
 ## Bonus: Experimenting with esnext + bundler
-In the next step we will introduce a bundler. For UI tests, bundlers are used to abstract away the transformation and module resolution steps amongst many other things. However, we still need to let typescript know how to interpret import statements. 
+In the last step we will introduce a bundler. For UI tests, bundlers are used to abstract away the transformation and module resolution steps amongst many other things. However, we still need to let typescript know how to interpret import statements. 
 
 1. Set the tsconfig compilerOptions to:
 
