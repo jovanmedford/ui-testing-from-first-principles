@@ -1,0 +1,7 @@
+{
+    "testEnvironment": "jsdom",
+    "testMatch": [
+        "<rootDir>/dist/**/*.test.js"
+    ],
+    "transform": {}
+}

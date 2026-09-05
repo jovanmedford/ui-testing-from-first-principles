@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "outDir": "./dist",
+        "types": [
+            "node",
+            "react",
+        ]
+    },
+}
