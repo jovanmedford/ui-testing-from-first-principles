@@ -1,7 +1,7 @@
 import { test, beforeEach } from "node:test";
 import assert from "node:assert/strict";
 import { JSDOM } from "jsdom";
-import { setupCounter } from "./counter.js";
+import setupCounter from "../setup-counter.js";
 
 // ─────────────────────────────────────────────────────────────────────────
 // This demonstrates the CORE IDEA behind Jest/Vitest's jsdom environment:
