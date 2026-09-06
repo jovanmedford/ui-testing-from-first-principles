@@ -1,7 +1,7 @@
 {
   "name": "2-dom-test",
   "version": "1.0.0",
-  "description": "This set up adds jsdom to demonstarte a browser-like environment",
+  "description": "This setup adds jsdom to demonstrate a browser-like environment",
   "license": "ISC",
   "author": "Jovan Medford",
   "type": "module",
