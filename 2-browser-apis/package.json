@@ -1,15 +1,15 @@
 {
-  "name": "2-dom-test",
+  "name": "2-browser-apis",
   "version": "1.0.0",
-  "description": "This setup adds jsdom to demonstrate a browser-like environment",
+  "description": "Add browser APIs to a Node test environment using jsdom",
   "license": "ISC",
   "author": "Jovan Medford",
   "type": "module",
-  "main": "counter.test.js",
+  "main": "counter.js",
   "scripts": {
     "test": "node --test"
   },
-  "dependencies": {
+  "devDependencies": {
     "jsdom": "^29.1.1"
   }
 }

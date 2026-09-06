@@ -8,8 +8,8 @@ This repository aims to decompose the elements that make a ui testing set up. Th
 Highlights the the difference between a test runner and an assertion library. The smallest unit for running javascript tests.
 
 
-## 2. DOM Environment
-Introduces the behaviour we would see from testEnvironment: "jsdom". This step exposes that we need additional tooling in order to access DOM API. 
+## 2. Browser APIs
+Adds browser APIs to our Node test environment, using the DOM and jsdom as the primary example.
 
 ### 3. Transformation & Module Resolution
 Typescript and React both use syntax that browsers do not natively understand. This step shows how you can introduce a transpilation step in order to run non-native syntax in your tests.
