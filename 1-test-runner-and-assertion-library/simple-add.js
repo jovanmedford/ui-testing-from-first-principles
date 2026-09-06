@@ -1,4 +1,4 @@
 
-export function simpleAdd(x, y) {
+export default function simpleAdd(x, y) {
     return x + y
 }
