@@ -11,6 +11,10 @@ describe("validate password", () => {
         assert.strictEqual(validatePassword(""), false)
     })
 
+    it("fails - too short", () => {
+        assert.strictEqual(validatePassword("a!"), false)
+    })
+
     it("fails - no special character", () => {
         assert.strictEqual(validatePassword("abcdefg"), false)
     })
