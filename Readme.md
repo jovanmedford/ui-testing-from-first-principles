@@ -1,6 +1,6 @@
 # UI Testing Setups From First Principles
 
-Component tests help us trust that individual pieces of an application work as intended. For those tests to be meaningful, the test environment should try to mimic the parts of the production environment that those components rely on. Building that environment is where our challenge lies.
+Component tests build trust that individual pieces of an application work as intended. For those tests to be meaningful, the test environment mimics the parts of the production environment that those components rely on. Building that test environment is where our challenge lies.
 
 This repository can be useful to you if:
 
