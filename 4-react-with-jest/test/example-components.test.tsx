@@ -1,5 +1,6 @@
 import { describe, expect, it } from "@jest/globals"
-import { fireEvent, render, screen } from "@testing-library/react"
+import { render, screen } from "@testing-library/react"
+import userEvent from "@testing-library/user-event"
 import { DanishComposersTabs } from "../component/example-components.js"
 
 describe("DanishComposersTabs", () => {
@@ -30,10 +31,11 @@ describe("DanishComposersTabs", () => {
         expect(panel.getAttribute("aria-labelledby")).toBe(tab.id)
     })
 
-    it("selects a tab when it is clicked", () => {
+    it("selects a tab when it is clicked", async () => {
+        const user = userEvent.setup()
         render(<DanishComposersTabs />)
 
-        fireEvent.click(screen.getByRole("tab", { name: "Carl Andersen" }))
+        await user.click(screen.getByRole("tab", { name: "Carl Andersen" }))
 
         screen.getByRole("tab", {
             name: "Carl Andersen",
