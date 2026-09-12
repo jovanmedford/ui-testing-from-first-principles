@@ -16,6 +16,3 @@ Typescript and React both use syntax that browsers do not natively understand. T
 
 ### 4. Jest, React & Testing Library
 Putting everything together, we see how to run unit tests using Jest and React Testing Library.
-
-### 5. Vitest (To Do)
-We show the most modern approach to running ui tests.
